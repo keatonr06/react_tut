@@ -32,7 +32,7 @@ class App extends React.Component {
         return (
             <div className="catch-of-the-day">
                 <div className="menu">
-                    <Header tagline="Fresh Seasfood Market"/>
+                    <Header tagline="Fresh Seafood Market"/>
                 </div>
                 <Order />
                 <Inventory addFish={this.addFish}/>
